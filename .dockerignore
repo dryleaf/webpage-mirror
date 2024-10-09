@@ -1,0 +1,5 @@
+.git/
+.gitignore
+.vscode/
+.dockerignore
+node_modules/

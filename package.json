@@ -1,0 +1,21 @@
+{
+  "name": "webpage-mirror",
+  "version": "1.0.0",
+  "description": "A command line tool to fetch web pages and store for offline browsing",
+  "main": "src/fetch.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha --exit"
+  },
+  "author": "Josimar Lopes",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "fs-extra": "^11.2.0",
+    "mocha": "^10.7.3",
+    "nock": "^13.5.5"
+  }
+}
